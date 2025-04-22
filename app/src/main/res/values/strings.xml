@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jadwal Aktivitas Harian</string>
+    <string name="judul_hint">Judul Aktivitas</string>
+    <string name="btn_tanggal">Pilih Tanggal</string>
+    <string name="btn_waktu">Pilih Waktu</string>
+    <string name="btn_tambah">Tambah Aktivitas</string>
+    <string name="btn_reset">Reset Semua</string>
+    <string name="konfirmasi_tambah">Tambahkan aktivitas \"%1$s\" pada %2$s, %3$s?</string>
+    <string name="reset_konfirmasi">Apakah Anda yakin ingin menghapus semua aktivitas?</string>
+    <string name="ya">Ya</string>
+    <string name="batal">Batal</string>
+    <string name="lengkapi_data">Lengkapi semua data!</string>
+</resources>

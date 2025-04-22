@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:id="@+id/tvJudulAplikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Jadwal Harian"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Input Judul Aktivitas -->
+    <EditText
+        android:id="@+id/etJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:hint="Enter title" />
+
+    <!-- Tombol Pilih Tanggal -->
+    <Button android:id="@+id/btnTanggal"
+        android:text="@string/btn_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Tombol Pilih Waktu -->
+    <Button android:id="@+id/btnWaktu"
+        android:text="@string/btn_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Tombol Tambah Aktivitas -->
+    <Button android:id="@+id/btnTambah"
+        android:text="@string/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Tombol Reset -->
+    <Button android:id="@+id/btnReset"
+        android:text="@string/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView untuk Menampilkan Aktivitas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAktivitas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="List of activities" />
+</LinearLayout>
